@@ -6,7 +6,6 @@ pipeline {
         SONAR_HOME = tool "Sonar"
         FRONTEND_DOCKER_TAG = "frontend-local-${BUILD_NUMBER}"
         BACKEND_DOCKER_TAG  = "backend-local-${BUILD_NUMBER}"
-}
 
     }
     
